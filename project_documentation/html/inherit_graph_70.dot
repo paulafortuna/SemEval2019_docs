@@ -1,0 +1,17 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node723 [label="namedtuple",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node723 -> Node681 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node681 [label="pip._vendor.msgpack.ExtType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1msgpack_1_1_ext_type.html"];
+  Node723 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 [label="pip._vendor.urllib3.util.url.Url",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1urllib3_1_1util_1_1url_1_1_url.html"];
+  Node686 [label="code",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node686 -> Node681 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node680 [label="data",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node680 -> Node681 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node44 [label="url_attrs",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node44 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

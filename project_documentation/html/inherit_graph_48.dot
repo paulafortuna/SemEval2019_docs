@@ -1,0 +1,25 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node683 [label="Codec",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node683 -> Node684 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node684 [label="pip._vendor.idna.codec.Codec",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1idna_1_1codec_1_1_codec.html"];
+  Node684 -> Node71 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node71 [label="pip._vendor.idna.codec.Stream\lReader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1idna_1_1codec_1_1_stream_reader.html"];
+  Node684 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 [label="pip._vendor.idna.codec.Stream\lWriter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1idna_1_1codec_1_1_stream_writer.html"];
+  Node683 -> Node685 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node685 [label="pip._vendor.webencodings.x\l_user_defined.Codec",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1webencodings_1_1x__user__defined_1_1_codec.html",tooltip="Codec APIs. "];
+  Node685 -> Node72 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node72 [label="pip._vendor.webencodings.x\l_user_defined.StreamReader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1webencodings_1_1x__user__defined_1_1_stream_reader.html"];
+  Node685 -> Node69 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node69 [label="pip._vendor.webencodings.x\l_user_defined.StreamWriter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1webencodings_1_1x__user__defined_1_1_stream_writer.html"];
+  Node70 [label="StreamReader",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node70 -> Node71 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node70 -> Node72 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node67 [label="StreamWriter",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node67 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node67 -> Node69 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

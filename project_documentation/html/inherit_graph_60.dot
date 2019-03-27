@@ -1,0 +1,13 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node682 [label="CookieJar",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node682 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 [label="pip._vendor.requests.cookies.\lRequestsCookieJar",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1requests_1_1cookies_1_1_requests_cookie_jar.html"];
+  Node505 [label="MutableMapping",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node505 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node505 -> Node507 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node507 [label="pip._vendor.requests.structures.\lCaseInsensitiveDict",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpip_1_1__vendor_1_1requests_1_1structures_1_1_case_insensitive_dict.html"];
+}
